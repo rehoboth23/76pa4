@@ -3,7 +3,7 @@ class Solution:
     def __init__(self, name):
         self.name = name
         self.isComplete = False
-        self.assignment = []
+        self.assignment = None
         self.nodes_visited = 0
 
     def __str__(self):
